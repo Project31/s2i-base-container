@@ -1,6 +1,7 @@
 # Variables are documented in common/build.sh.
 BASE_IMAGE_NAME = s2i
 VERSIONS = core base
+ARCH = ""
 
 # HACK:  Ensure that 'git pull' for old clones doesn't cause confusion.
 # New clones should use '--recursive'.
